@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* selects for new "header" tag after changing from div tag with header class*/ 
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -32,6 +33,7 @@ header nav {
     font-size: 20px;
 }
 
+/* changed syntax in the following few selectors to select for the nav tag rather than the nav class of div tag*/
 header nav ul {
     list-style-type: none;
 }
