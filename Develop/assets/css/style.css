@@ -16,15 +16,18 @@ header {
     color: #ffffff;
 }
 
+/* selects for new "header" tag after changing from div tag with header class*/ 
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* selects for new "header" tag after changing from div tag with header class*/ 
 header h1 .seo {
     color: black;
 }
 
+/* selects for the nav tag rather than the nav class of div tag*/
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -33,11 +36,12 @@ header nav {
     font-size: 20px;
 }
 
-/* changed syntax in the following few selectors to select for the nav tag rather than the nav class of div tag*/
+/* selects for the nav tag rather than the nav class of div tag*/
 header nav ul {
     list-style-type: none;
 }
 
+/* selects for the nav tag rather than the nav class of div tag*/
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -61,6 +65,7 @@ p {
     background-position: center;
 }
 
+/* added a hero img so that alt text can be read, but the img is not displayed so that existing background image above is displayed*/
 .hero img {
     display: none;
 }
@@ -194,6 +199,7 @@ p {
     font-size: 36px;
 }
 
+/* selects for new semantic footer tag*/
 footer {
     padding: 30px;
     clear: both;
@@ -201,6 +207,7 @@ footer {
     text-align: center;
 }
 
+/* selects for new semantic footer tag*/
 footer h2 {
     font-size: 20px;
 }
